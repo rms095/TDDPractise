@@ -9,8 +9,7 @@
   <version>1.0-SNAPSHOT</version>
 
   <name>TDDPractise</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.morezcode.com</url>
+  <url>http://www.morezcode.in</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
