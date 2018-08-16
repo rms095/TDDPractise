@@ -1,6 +1,4 @@
-# TDDPractise
- 
-## Programs :
+# Test Driven Development Programs - TDD Practise
 ### FizzBuzz Program
 ```sh 
 [1, 2, 3, 5, 6, 10, 15, 30]
