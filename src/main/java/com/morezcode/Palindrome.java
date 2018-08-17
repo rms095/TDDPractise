@@ -9,10 +9,14 @@ public class Palindrome {
             if (inputString.length() == 0)
                 return false;
             else {
-                return inputString.length() == 1 || checkEqualityWithIgnoreCaseByReversingInputString(inputString);
+                return checkSingleCharacterString(inputString) || checkEqualityWithIgnoreCaseByReversingInputString(inputString);
             }
         }
         return false;
+    }
+
+    private boolean checkSingleCharacterString(String inputString) {
+        return inputString.length() == 1;
     }
 
     private boolean checkEqualityWithIgnoreCaseByReversingInputString(String inputString) {
